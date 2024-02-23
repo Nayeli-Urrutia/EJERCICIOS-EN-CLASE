@@ -12,7 +12,7 @@ namespace EJERCICIOS_EN_CLASE
         //EJERCICIO 1
         static void Main(string[] args)
         {
-            Console.WriteLine("Escriba un numero");
+            Console.WriteLine("Escriba un numero entero ");
             int numero = int.Parse(Console.ReadLine());
             if (numero < 0)
             {
